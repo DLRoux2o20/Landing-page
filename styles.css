@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300&display=swap');
 
+:root {
+    --fx-l: 100;
+    --fx-ln: 300;
+    --fx-normal: 400;
+    --fx-hn: 500;
+    --fx-bold: 700;
+    --fx-extrabold: 900;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -32,7 +41,7 @@ li {
 .headerlogo {
     color: #f9faf8;
     font-size: 24px;
-    font-weight: 900;
+    font-weight: var(--fx-extrabold);
 }
 
 .headerul {
@@ -49,7 +58,7 @@ header {
 
 h1 {
     font-size: 48px;
-    font-weight: 900;
+    font-weight: var(--fx-extrabold);
     color: #f9faf8;
 }
 
@@ -58,7 +67,7 @@ h1 {
     border: 0;
     border-radius: 8px;
     color: #f9faf8;
-    font-weight: 900;
+    font-weight: var(--fx-bold);
     font-size: 18px;
     padding: 8px 32px;
     margin-top: 10px;
@@ -93,7 +102,7 @@ h1 {
 .information {
     font-size: 36px;
     color: #1f2937;
-    font-weight: 900;
+    font-weight: var(--fx-extrabold);
     text-align: center;
     margin-block: 50px;
 }
@@ -112,7 +121,7 @@ h1 {
     align-items: center;
     justify-content: center;
     gap: 50px;
-    margin-bottom: 150px;
+    margin-bottom: 130px;
 }
 
 .frameflex2 {
@@ -131,8 +140,7 @@ h1 {
 #quote {
     background-color: #e5e7eb;
     width: 100%;
-    height: 500px;
-    padding-top: 160px;
+    height: 450px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -143,4 +151,57 @@ h1 {
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
+}
+
+.author {
+    width: 100%;
+}
+
+.authorp {
+    width: max-content;
+    font-size: 24px;
+    font-weight: var(--fx-bold);
+    margin-left: auto;
+}
+
+.cta {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 240px;
+}
+
+.container {
+    width: 100%;
+    height: 150px;
+    background-color: #3882f6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 120px;
+}
+
+.ctah {
+    font-size: 24px;
+    font-weight: var(--fx-bold);
+    color: #f9faf8;
+}
+
+.ctash {
+    font-size: 17px;
+    color: #e5e7eb;
+}
+
+.ctasignup {
+    background-color: #3882f6;
+    border: 3px solid #f9faf8;
+    border-radius: 8px;
+    color: #f9faf8;
+    width: 140px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: var(--fx-bold);
 }
