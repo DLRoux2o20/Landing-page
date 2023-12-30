@@ -164,9 +164,9 @@ h1 {
     margin-left: auto;
 }
 
-.cta {
+#cta {
     width: 100%;
-    height: 300px;
+    height: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -204,4 +204,18 @@ h1 {
     height: 40px;
     font-size: 18px;
     font-weight: var(--fx-bold);
+}
+
+#footer {
+    width: 100%;
+    height: 100px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerp {
+    color: #f9faf8;
+    font-size: 18px;
 }
